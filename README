@@ -37,7 +37,8 @@ PLA currently provides these PMC types:
 * CharMatrix2D
 
     A 2-D character matrix that doubles as an array of strings with
-    fixed-row-length storage.
+    fixed-row-length storage. This type is experimental and does not implement
+    many of the operations that the other types add.
 
 PLA does not yet offer matrix or tensor types with more than two dimensions.
 
@@ -56,7 +57,7 @@ dependencies.
 
 Here are a list of dependencies for PLA:
 
-* Parrot 2.2.0
+* Parrot 2.6.0
 
     PLA is an extension for Parrot and requires Parrot to build and run.
     Releases of PLA will target supported releases of Parrot. Supported

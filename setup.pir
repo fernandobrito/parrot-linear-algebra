@@ -19,6 +19,8 @@ See F<runtime/library/distutils.pir>.
 
 =cut
 
+.loadlib 'sys_ops.so'
+
 .sub 'main' :main
     .param pmc args
     $S0 = shift args
